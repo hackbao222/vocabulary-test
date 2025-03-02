@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Dò Từ Vựng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Trang Web Dò Từ Vựng</h1>
+        <h2>Thêm từ vựng và nghĩa</h2>
+
+        <div class="input-container">
+            <div class="word-container">
+                <label for="word">Nhập từ vựng:</label>
+                <input type="text" id="word" placeholder="Từ vựng">
+            </div>
+            <div class="meaning-container">
+                <label for="meaning">Nhập nghĩa:</label>
+                <input type="text" id="meaning" placeholder="Nghĩa từ vựng">
+            </div>
+            <button id="add-word">Thêm Từ</button>
+        </div>
+
+        <div class="vocab-list">
+            <h3>Danh sách từ vựng</h3>
+            <ul id="vocab-list"></ul>
+        </div>
+
+        <div class="generate-link">
+            <button id="generate-link">Tạo Link Kiểm Tra</button>
+            <p id="link-url"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
